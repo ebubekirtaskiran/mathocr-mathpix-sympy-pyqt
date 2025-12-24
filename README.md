@@ -1,0 +1,1 @@
+# mathocr-mathpix-sympy-pyqt
