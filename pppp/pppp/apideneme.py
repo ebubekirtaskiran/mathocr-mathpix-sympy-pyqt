@@ -299,8 +299,8 @@ class MathOCRApp(QMainWindow):
 
     def process_with_mathpix(self, frame):
         try:
-            app_id = "beykozuni_cb62af_506742"
-            app_key = "348a720bb8dd43ec7136ea8892e4a7acc185e373081623e238fbdfd5129e72b6"
+            app_id = "your_app_ıd"
+            app_key = "your_app_key"
 
             _, buffer = cv2.imencode('.png', frame)
             img_base64 = base64.b64encode(buffer).decode()
